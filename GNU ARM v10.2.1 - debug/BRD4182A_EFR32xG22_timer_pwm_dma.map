@@ -6,6 +6,8 @@ Archive member included to satisfy reference by file (symbol)
                               /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc_nano.a(lib_a-exit.o) (_global_impure_ptr)
 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc_nano.a(lib_a-init.o)
                               /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/crt0.o (__libc_init_array)
+/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc_nano.a(lib_a-memcpy-stub.o)
+                              ./src/main.o (memcpy)
 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc_nano.a(lib_a-memset.o)
                               /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/crt0.o (memset)
 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libnosys.a(_exit.o)
@@ -1357,12 +1359,34 @@ Discarded input sections
  .group         0x0000000000000000        0xc ./src/main.o
  .group         0x0000000000000000        0xc ./src/main.o
  .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
  .text          0x0000000000000000        0x0 ./src/main.o
  .data          0x0000000000000000        0x0 ./src/main.o
  .bss           0x0000000000000000        0x0 ./src/main.o
  .rodata.ColorGreen
                 0x0000000000000000       0x30 ./src/main.o
- .rodata.ColorRed
+ .rodata.ColorBlue
+                0x0000000000000000       0x30 ./src/main.o
+ .rodata.ColorWhite
                 0x0000000000000000       0x30 ./src/main.o
  .bss.Txdone    0x0000000000000000        0x1 ./src/main.o
  .debug_macro   0x0000000000000000      0xa72 ./src/main.o
@@ -1435,6 +1459,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xdc ./src/main.o
  .debug_macro   0x0000000000000000      0x11b ./src/main.o
  .debug_macro   0x0000000000000000       0x33 ./src/main.o
+ .debug_macro   0x0000000000000000       0x64 ./src/main.o
+ .debug_macro   0x0000000000000000      0x356 ./src/main.o
  .text          0x0000000000000000        0x0 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc_nano.a(lib_a-exit.o)
  .data          0x0000000000000000        0x0 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc_nano.a(lib_a-exit.o)
  .bss           0x0000000000000000        0x0 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc_nano.a(lib_a-exit.o)
@@ -1446,6 +1472,9 @@ Discarded input sections
  .text          0x0000000000000000        0x0 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc_nano.a(lib_a-init.o)
  .data          0x0000000000000000        0x0 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc_nano.a(lib_a-init.o)
  .bss           0x0000000000000000        0x0 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc_nano.a(lib_a-init.o)
+ .text          0x0000000000000000        0x0 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc_nano.a(lib_a-memcpy-stub.o)
+ .data          0x0000000000000000        0x0 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc_nano.a(lib_a-memcpy-stub.o)
+ .bss           0x0000000000000000        0x0 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc_nano.a(lib_a-memcpy-stub.o)
  .text          0x0000000000000000        0x0 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc_nano.a(lib_a-memset.o)
  .data          0x0000000000000000        0x0 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc_nano.a(lib_a-memset.o)
  .bss           0x0000000000000000        0x0 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc_nano.a(lib_a-memset.o)
@@ -1499,13 +1528,13 @@ END GROUP
 LOAD /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v8-m.main+fp/softfp/crtend.o
 LOAD /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v8-m.main+fp/softfp/crtn.o
 
-.text           0x0000000000000000     0x27f8
+.text           0x0000000000000000     0x27cc
  *(.vectors)
  .vectors       0x0000000000000000      0x140 ./CMSIS/EFR32MG22/startup_efr32mg22.o
                 0x0000000000000000                __Vectors
                 0x0000000000000140                __Vectors_End = .
                 0x0000000000000140                __Vectors_Size = (__Vectors_End - __Vectors)
-                0x0000000020000338                __end__ = .
+                0x00000000200006c8                __end__ = .
  *(.text*)
  .text          0x0000000000000140       0x40 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v8-m.main+fp/softfp/crtbegin.o
  .text          0x0000000000000180       0x7c /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/crt0.o
@@ -1787,36 +1816,40 @@ LOAD /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/g
                 0x0000000000002430       0x94 ./src/main.o
                 0x0000000000002430                initTimer
  .text.populateBuffer
-                0x00000000000024c4       0x58 ./src/main.o
+                0x00000000000024c4       0x5c ./src/main.o
                 0x00000000000024c4                populateBuffer
  .text.populateMessageBuffer
-                0x000000000000251c       0xa8 ./src/main.o
-                0x000000000000251c                populateMessageBuffer
+                0x0000000000002520       0x5c ./src/main.o
+                0x0000000000002520                populateMessageBuffer
  .text.initLdma
-                0x00000000000025c4       0x60 ./src/main.o
-                0x00000000000025c4                initLdma
- .text.main     0x0000000000002624       0x22 ./src/main.o
-                0x0000000000002624                main
+                0x000000000000257c       0x60 ./src/main.o
+                0x000000000000257c                initLdma
+ .text.main     0x00000000000025dc       0x50 ./src/main.o
+                0x00000000000025dc                main
  .text.LDMA_IRQHandler
-                0x0000000000002646       0x22 ./src/main.o
-                0x0000000000002646                LDMA_IRQHandler
- .text.exit     0x0000000000002668       0x28 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc_nano.a(lib_a-exit.o)
-                0x0000000000002668                exit
+                0x000000000000262c       0x22 ./src/main.o
+                0x000000000000262c                LDMA_IRQHandler
+ *fill*         0x000000000000264e        0x2 
+ .text.exit     0x0000000000002650       0x28 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc_nano.a(lib_a-exit.o)
+                0x0000000000002650                exit
  .text.__libc_init_array
-                0x0000000000002690       0x48 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc_nano.a(lib_a-init.o)
-                0x0000000000002690                __libc_init_array
- .text.memset   0x00000000000026d8       0x10 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc_nano.a(lib_a-memset.o)
-                0x00000000000026d8                memset
- .text._exit    0x00000000000026e8        0x4 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libnosys.a(_exit.o)
-                0x00000000000026e8                _exit
+                0x0000000000002678       0x48 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc_nano.a(lib_a-init.o)
+                0x0000000000002678                __libc_init_array
+ .text.memcpy   0x00000000000026c0       0x1a /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc_nano.a(lib_a-memcpy-stub.o)
+                0x00000000000026c0                memcpy
+ .text.memset   0x00000000000026da       0x10 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc_nano.a(lib_a-memset.o)
+                0x00000000000026da                memset
+ *fill*         0x00000000000026ea        0x2 
+ .text._exit    0x00000000000026ec        0x4 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libnosys.a(_exit.o)
+                0x00000000000026ec                _exit
  *(.init)
- .init          0x00000000000026ec        0x4 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v8-m.main+fp/softfp/crti.o
-                0x00000000000026ec                _init
- .init          0x00000000000026f0        0x8 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v8-m.main+fp/softfp/crtn.o
+ .init          0x00000000000026f0        0x4 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v8-m.main+fp/softfp/crti.o
+                0x00000000000026f0                _init
+ .init          0x00000000000026f4        0x8 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v8-m.main+fp/softfp/crtn.o
  *(.fini)
- .fini          0x00000000000026f8        0x4 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v8-m.main+fp/softfp/crti.o
-                0x00000000000026f8                _fini
- .fini          0x00000000000026fc        0x8 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v8-m.main+fp/softfp/crtn.o
+ .fini          0x00000000000026fc        0x4 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v8-m.main+fp/softfp/crti.o
+                0x00000000000026fc                _fini
+ .fini          0x0000000000002700        0x8 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v8-m.main+fp/softfp/crtn.o
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -1828,51 +1861,49 @@ LOAD /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/g
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.rodata*)
- .rodata.ColorBlue
-                0x0000000000002704       0x30 ./src/main.o
- .rodata.ColorWhite
-                0x0000000000002734       0x30 ./src/main.o
+ .rodata.ColorRed
+                0x0000000000002708       0x30 ./src/main.o
  .rodata.LogicReset
-                0x0000000000002764       0x86 ./src/main.o
- *fill*         0x00000000000027ea        0x2 
- .rodata        0x00000000000027ec        0x4 ./src/main.o
+                0x0000000000002738       0x86 ./src/main.o
+ *fill*         0x00000000000027be        0x2 
+ .rodata        0x00000000000027c0        0x4 ./src/main.o
  .rodata._global_impure_ptr
-                0x00000000000027f0        0x4 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc_nano.a(lib_a-impure.o)
-                0x00000000000027f0                _global_impure_ptr
+                0x00000000000027c4        0x4 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc_nano.a(lib_a-impure.o)
+                0x00000000000027c4                _global_impure_ptr
  *(.eh_frame*)
- .eh_frame      0x00000000000027f4        0x0 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v8-m.main+fp/softfp/crtbegin.o
- .eh_frame      0x00000000000027f4        0x4 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v8-m.main+fp/softfp/crtend.o
+ .eh_frame      0x00000000000027c8        0x0 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v8-m.main+fp/softfp/crtbegin.o
+ .eh_frame      0x00000000000027c8        0x4 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v8-m.main+fp/softfp/crtend.o
 
-.glue_7         0x00000000000027f8        0x0
- .glue_7        0x00000000000027f8        0x0 linker stubs
+.glue_7         0x00000000000027cc        0x0
+ .glue_7        0x00000000000027cc        0x0 linker stubs
 
-.glue_7t        0x00000000000027f8        0x0
- .glue_7t       0x00000000000027f8        0x0 linker stubs
+.glue_7t        0x00000000000027cc        0x0
+ .glue_7t       0x00000000000027cc        0x0 linker stubs
 
-.vfp11_veneer   0x00000000000027f8        0x0
- .vfp11_veneer  0x00000000000027f8        0x0 linker stubs
+.vfp11_veneer   0x00000000000027cc        0x0
+ .vfp11_veneer  0x00000000000027cc        0x0 linker stubs
 
-.v4_bx          0x00000000000027f8        0x0
- .v4_bx         0x00000000000027f8        0x0 linker stubs
+.v4_bx          0x00000000000027cc        0x0
+ .v4_bx         0x00000000000027cc        0x0 linker stubs
 
-.iplt           0x00000000000027f8        0x0
- .iplt          0x00000000000027f8        0x0 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v8-m.main+fp/softfp/crtbegin.o
+.iplt           0x00000000000027cc        0x0
+ .iplt          0x00000000000027cc        0x0 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v8-m.main+fp/softfp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00000000000027f8                __exidx_start = .
+                0x00000000000027cc                __exidx_start = .
 
-.ARM.exidx      0x00000000000027f8        0x8
+.ARM.exidx      0x00000000000027cc        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x00000000000027f8        0x8 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/crt0.o
+ .ARM.exidx     0x00000000000027cc        0x8 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/crt0.o
                                          0x10 (size before relaxing)
-                0x0000000000002800                __exidx_end = .
-                0x0000000000002800                __etext = .
+                0x00000000000027d4                __exidx_end = .
+                0x00000000000027d4                __etext = .
 
-.rel.dyn        0x0000000000002800        0x0
- .rel.iplt      0x0000000000002800        0x0 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v8-m.main+fp/softfp/crtbegin.o
+.rel.dyn        0x00000000000027d4        0x0
+ .rel.iplt      0x00000000000027d4        0x0 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v8-m.main+fp/softfp/crtbegin.o
 
-.data           0x0000000020000000       0x88 load address 0x0000000000002800
+.data           0x0000000020000000       0x88 load address 0x00000000000027d4
                 0x0000000020000000                __data_start__ = .
  *(vtable)
  *(.data*)
@@ -1911,10 +1942,10 @@ LOAD /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/g
                 0x0000000020000088                . = ALIGN (0x4)
                 0x0000000020000088                __data_end__ = .
 
-.igot.plt       0x0000000020000088        0x0 load address 0x0000000000002888
+.igot.plt       0x0000000020000088        0x0 load address 0x000000000000285c
  .igot.plt      0x0000000020000088        0x0 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v8-m.main+fp/softfp/crtbegin.o
 
-.bss            0x0000000020000088      0x2b0 load address 0x0000000000002888
+.bss            0x0000000020000088      0x640 load address 0x000000000000285c
                 0x0000000020000088                . = ALIGN (0x4)
                 0x0000000020000088                __bss_start__ = .
  *(.bss*)
@@ -1923,27 +1954,29 @@ LOAD /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/g
                 0x00000000200000a4        0x1 ./emlib/em_emu.o
  *fill*         0x00000000200000a5        0x3 
  .bss.dutyCyclePercentages
-                0x00000000200000a8      0x146 ./src/main.o
+                0x00000000200000a8      0x296 ./src/main.o
                 0x00000000200000a8                dutyCyclePercentages
- *fill*         0x00000000200001ee        0x2 
- .bss.buffer    0x00000000200001f0      0x146 ./src/main.o
+ *fill*         0x000000002000033e        0x2 
+ .bss.LedStrip  0x0000000020000340       0xf0 ./src/main.o
+                0x0000000020000340                LedStrip
+ .bss.buffer    0x0000000020000430      0x296 ./src/main.o
  *(COMMON)
-                0x0000000020000338                . = ALIGN (0x4)
- *fill*         0x0000000020000336        0x2 
-                0x0000000020000338                __bss_end__ = .
+                0x00000000200006c8                . = ALIGN (0x4)
+ *fill*         0x00000000200006c6        0x2 
+                0x00000000200006c8                __bss_end__ = .
 
-.heap           0x0000000020000338      0xc00
-                0x0000000020000338                __HeapBase = .
-                0x0000000020000338                __end__ = .
-                0x0000000020000338                end = __end__
-                0x0000000020000338                _end = __end__
+.heap           0x00000000200006c8      0xc00
+                0x00000000200006c8                __HeapBase = .
+                0x00000000200006c8                __end__ = .
+                0x00000000200006c8                end = __end__
+                0x00000000200006c8                _end = __end__
  *(.heap*)
- .heap          0x0000000020000338      0xc00 ./CMSIS/EFR32MG22/startup_efr32mg22.o
-                0x0000000020000f38                __HeapLimit = .
+ .heap          0x00000000200006c8      0xc00 ./CMSIS/EFR32MG22/startup_efr32mg22.o
+                0x00000000200012c8                __HeapLimit = .
 
-.stack_dummy    0x0000000020000338      0x400
+.stack_dummy    0x00000000200006c8      0x400
  *(.stack*)
- .stack         0x0000000020000338      0x400 ./CMSIS/EFR32MG22/startup_efr32mg22.o
+ .stack         0x00000000200006c8      0x400 ./CMSIS/EFR32MG22/startup_efr32mg22.o
                 0x0000000020008000                __StackTop = (ORIGIN (RAM) + LENGTH (RAM))
                 0x0000000020007c00                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
                 0x0000000020008000                PROVIDE (__stack = __StackTop)
@@ -1985,13 +2018,15 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000000000002c6       0x36 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc_nano.a(lib_a-init.o)
  .ARM.attributes
-                0x00000000000002fc       0x36 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc_nano.a(lib_a-memset.o)
+                0x00000000000002fc       0x36 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc_nano.a(lib_a-memcpy-stub.o)
  .ARM.attributes
-                0x0000000000000332       0x36 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libnosys.a(_exit.o)
+                0x0000000000000332       0x36 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc_nano.a(lib_a-memset.o)
  .ARM.attributes
-                0x0000000000000368       0x34 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v8-m.main+fp/softfp/crtend.o
+                0x0000000000000368       0x36 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libnosys.a(_exit.o)
  .ARM.attributes
-                0x000000000000039c       0x22 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v8-m.main+fp/softfp/crtn.o
+                0x000000000000039e       0x34 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v8-m.main+fp/softfp/crtend.o
+ .ARM.attributes
+                0x00000000000003d2       0x22 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v8-m.main+fp/softfp/crtn.o
 
 .comment        0x0000000000000000       0x4d
  .comment       0x0000000000000000       0x4d ./CMSIS/EFR32MG22/system_efr32mg22.o
@@ -2004,7 +2039,7 @@ LOAD linker stubs
  .comment       0x000000000000004d       0x4e ./emlib/em_timer.o
  .comment       0x000000000000004d       0x4e ./src/main.o
 
-.debug_line     0x0000000000000000     0x7f9a
+.debug_line     0x0000000000000000     0x801b
  .debug_line    0x0000000000000000       0xe9 ./CMSIS/EFR32MG22/startup_efr32mg22.o
  .debug_line    0x00000000000000e9      0xa43 ./CMSIS/EFR32MG22/system_efr32mg22.o
  .debug_line    0x0000000000000b2c     0x1e27 ./emlib/em_cmu.o
@@ -2013,9 +2048,9 @@ LOAD linker stubs
  .debug_line    0x0000000000004a71      0xc4f ./emlib/em_gpio.o
  .debug_line    0x00000000000056c0      0xcad ./emlib/em_ldma.o
  .debug_line    0x000000000000636d      0xedd ./emlib/em_timer.o
- .debug_line    0x000000000000724a      0xd50 ./src/main.o
+ .debug_line    0x000000000000724a      0xdd1 ./src/main.o
 
-.debug_info     0x0000000000000000    0x15941
+.debug_info     0x0000000000000000    0x15a00
  .debug_info    0x0000000000000000       0x26 ./CMSIS/EFR32MG22/startup_efr32mg22.o
  .debug_info    0x0000000000000026     0x133c ./CMSIS/EFR32MG22/system_efr32mg22.o
  .debug_info    0x0000000000001362     0x5f04 ./emlib/em_cmu.o
@@ -2024,9 +2059,9 @@ LOAD linker stubs
  .debug_info    0x000000000000b709     0x1d2b ./emlib/em_gpio.o
  .debug_info    0x000000000000d434     0x1b2a ./emlib/em_ldma.o
  .debug_info    0x000000000000ef5e     0x2665 ./emlib/em_timer.o
- .debug_info    0x00000000000115c3     0x437e ./src/main.o
+ .debug_info    0x00000000000115c3     0x443d ./src/main.o
 
-.debug_abbrev   0x0000000000000000     0x157b
+.debug_abbrev   0x0000000000000000     0x1583
  .debug_abbrev  0x0000000000000000       0x14 ./CMSIS/EFR32MG22/startup_efr32mg22.o
  .debug_abbrev  0x0000000000000014      0x220 ./CMSIS/EFR32MG22/system_efr32mg22.o
  .debug_abbrev  0x0000000000000234      0x35a ./emlib/em_cmu.o
@@ -2035,7 +2070,7 @@ LOAD linker stubs
  .debug_abbrev  0x0000000000000b03      0x221 ./emlib/em_gpio.o
  .debug_abbrev  0x0000000000000d24      0x2bb ./emlib/em_ldma.o
  .debug_abbrev  0x0000000000000fdf      0x293 ./emlib/em_timer.o
- .debug_abbrev  0x0000000000001272      0x309 ./src/main.o
+ .debug_abbrev  0x0000000000001272      0x311 ./src/main.o
 
 .debug_aranges  0x0000000000000000      0x690
  .debug_aranges
@@ -2057,26 +2092,26 @@ LOAD linker stubs
  .debug_aranges
                 0x00000000000005f0       0xa0 ./src/main.o
 
-.debug_str      0x0000000000000000   0x1804e2
+.debug_str      0x0000000000000000   0x181e85
  .debug_str     0x0000000000000000      0x10c ./CMSIS/EFR32MG22/startup_efr32mg22.o
- .debug_str     0x000000000000010c   0x17050f ./CMSIS/EFR32MG22/system_efr32mg22.o
+ .debug_str     0x000000000000010c   0x17050a ./CMSIS/EFR32MG22/system_efr32mg22.o
                                      0x170d93 (size before relaxing)
- .debug_str     0x000000000017061b     0x7dfe ./emlib/em_cmu.o
+ .debug_str     0x0000000000170616     0x7dfe ./emlib/em_cmu.o
                                      0x1789fa (size before relaxing)
- .debug_str     0x0000000000178419      0x750 ./emlib/em_core.o
+ .debug_str     0x0000000000178414      0x750 ./emlib/em_core.o
                                      0x171449 (size before relaxing)
- .debug_str     0x0000000000178b69      0xbe1 ./emlib/em_emu.o
+ .debug_str     0x0000000000178b64      0xbe1 ./emlib/em_emu.o
                                      0x1774a8 (size before relaxing)
- .debug_str     0x000000000017974a      0x20e ./emlib/em_gpio.o
+ .debug_str     0x0000000000179745      0x20e ./emlib/em_gpio.o
                                      0x1724f7 (size before relaxing)
- .debug_str     0x0000000000179958     0x33de ./emlib/em_ldma.o
+ .debug_str     0x0000000000179953     0x33de ./emlib/em_ldma.o
                                      0x1774af (size before relaxing)
- .debug_str     0x000000000017cd36     0x2990 ./emlib/em_timer.o
+ .debug_str     0x000000000017cd31     0x2990 ./emlib/em_timer.o
                                      0x172d4e (size before relaxing)
- .debug_str     0x000000000017f6c6      0xe1c ./src/main.o
-                                     0x179ba8 (size before relaxing)
+ .debug_str     0x000000000017f6c1     0x27c4 ./src/main.o
+                                     0x17ce42 (size before relaxing)
 
-.debug_loc      0x0000000000000000     0x3786
+.debug_loc      0x0000000000000000     0x377a
  .debug_loc     0x0000000000000000      0x40c ./CMSIS/EFR32MG22/system_efr32mg22.o
  .debug_loc     0x000000000000040c      0xe5a ./emlib/em_cmu.o
  .debug_loc     0x0000000000001266      0x88c ./emlib/em_core.o
@@ -2084,7 +2119,7 @@ LOAD linker stubs
  .debug_loc     0x00000000000026e6      0x3c4 ./emlib/em_gpio.o
  .debug_loc     0x0000000000002aaa      0x434 ./emlib/em_ldma.o
  .debug_loc     0x0000000000002ede      0x3a0 ./emlib/em_timer.o
- .debug_loc     0x000000000000327e      0x508 ./src/main.o
+ .debug_loc     0x000000000000327e      0x4fc ./src/main.o
 
 .debug_ranges   0x0000000000000000      0x5f0
  .debug_ranges  0x0000000000000000       0x78 ./CMSIS/EFR32MG22/system_efr32mg22.o
@@ -2096,7 +2131,7 @@ LOAD linker stubs
  .debug_ranges  0x0000000000000500       0x60 ./emlib/em_timer.o
  .debug_ranges  0x0000000000000560       0x90 ./src/main.o
 
-.debug_macro    0x0000000000000000    0x38e72
+.debug_macro    0x0000000000000000    0x3966b
  .debug_macro   0x0000000000000000      0x2d8 ./CMSIS/EFR32MG22/system_efr32mg22.o
  .debug_macro   0x00000000000002d8      0xa72 ./CMSIS/EFR32MG22/system_efr32mg22.o
  .debug_macro   0x0000000000000d4a       0x22 ./CMSIS/EFR32MG22/system_efr32mg22.o
@@ -2188,11 +2223,29 @@ LOAD linker stubs
  .debug_macro   0x00000000000385c1       0xba ./emlib/em_ldma.o
  .debug_macro   0x000000000003867b      0x2e5 ./emlib/em_timer.o
  .debug_macro   0x0000000000038960       0x79 ./emlib/em_timer.o
- .debug_macro   0x00000000000389d9      0x35a ./src/main.o
- .debug_macro   0x0000000000038d33       0x7f ./src/main.o
- .debug_macro   0x0000000000038db2       0xc0 ./src/main.o
+ .debug_macro   0x00000000000389d9      0x460 ./src/main.o
+ .debug_macro   0x0000000000038e39       0x7f ./src/main.o
+ .debug_macro   0x0000000000038eb8       0xc0 ./src/main.o
+ .debug_macro   0x0000000000038f78       0x18 ./src/main.o
+ .debug_macro   0x0000000000038f90       0x35 ./src/main.o
+ .debug_macro   0x0000000000038fc5       0x34 ./src/main.o
+ .debug_macro   0x0000000000038ff9       0x16 ./src/main.o
+ .debug_macro   0x000000000003900f       0x97 ./src/main.o
+ .debug_macro   0x00000000000390a6       0xf6 ./src/main.o
+ .debug_macro   0x000000000003919c       0x10 ./src/main.o
+ .debug_macro   0x00000000000391ac       0x16 ./src/main.o
+ .debug_macro   0x00000000000391c2       0x43 ./src/main.o
+ .debug_macro   0x0000000000039205       0x34 ./src/main.o
+ .debug_macro   0x0000000000039239       0x10 ./src/main.o
+ .debug_macro   0x0000000000039249       0x58 ./src/main.o
+ .debug_macro   0x00000000000392a1      0x182 ./src/main.o
+ .debug_macro   0x0000000000039423       0xbe ./src/main.o
+ .debug_macro   0x00000000000394e1       0x16 ./src/main.o
+ .debug_macro   0x00000000000394f7      0x129 ./src/main.o
+ .debug_macro   0x0000000000039620       0x16 ./src/main.o
+ .debug_macro   0x0000000000039636       0x35 ./src/main.o
 
-.debug_frame    0x0000000000000000     0x1a9c
+.debug_frame    0x0000000000000000     0x1ac0
  .debug_frame   0x0000000000000000      0x1ec ./CMSIS/EFR32MG22/system_efr32mg22.o
  .debug_frame   0x00000000000001ec      0x6c8 ./emlib/em_cmu.o
  .debug_frame   0x00000000000008b4      0x3dc ./emlib/em_core.o
@@ -2200,8 +2253,9 @@ LOAD linker stubs
  .debug_frame   0x0000000000001248      0x1b8 ./emlib/em_gpio.o
  .debug_frame   0x0000000000001400      0x1f4 ./emlib/em_ldma.o
  .debug_frame   0x00000000000015f4      0x1ac ./emlib/em_timer.o
- .debug_frame   0x00000000000017a0      0x268 ./src/main.o
- .debug_frame   0x0000000000001a08       0x28 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc_nano.a(lib_a-exit.o)
- .debug_frame   0x0000000000001a30       0x2c /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc_nano.a(lib_a-init.o)
- .debug_frame   0x0000000000001a5c       0x20 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc_nano.a(lib_a-memset.o)
- .debug_frame   0x0000000000001a7c       0x20 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libnosys.a(_exit.o)
+ .debug_frame   0x00000000000017a0      0x264 ./src/main.o
+ .debug_frame   0x0000000000001a04       0x28 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc_nano.a(lib_a-exit.o)
+ .debug_frame   0x0000000000001a2c       0x2c /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc_nano.a(lib_a-init.o)
+ .debug_frame   0x0000000000001a58       0x28 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x0000000000001a80       0x20 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x0000000000001aa0       0x20 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libnosys.a(_exit.o)
