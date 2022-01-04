@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.settings">
+        		
+        <cconfiguration id="debug">
+            			
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="debug" moduleId="org.eclipse.cdt.core.settings" name="GNU ARM v10.2.1 - debug">
+                				
+                <macros>
+                    					
+                    <stringMacro name="StudioSdkPath" type="VALUE_PATH_DIR" value="${StudioSdkPathFromID:com.silabs.sdk.stack.super:3.2.3._-874334381}"/>
+                    					
+                    <stringMacro name="StudioToolchainPath" type="VALUE_PATH_DIR" value="${StudioToolchainPathFromID:com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:10.2.1.20201103}"/>
+                    				
+                </macros>
+                				
+                <externalSettings/>
+                				
+                <extensions>
+                    					
+                    <extension id="com.silabs.ss.framework.debugger.core.HEX" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="com.silabs.ss.framework.debugger.core.EBL" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="com.silabs.ss.framework.debugger.core.GBL" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="com.silabs.ss.framework.debugger.core.BIN" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="com.silabs.ss.framework.debugger.core.S37" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    				
+                </extensions>
+                			
+            </storageModule>
+            			
+            <storageModule cppBuildConfig.projectBuiltInState="[{&quot;builtinMacrosMap&quot;:{&quot;EFR32MG22C224F512IM40&quot;:&quot;1&quot;},&quot;builtinLibraryPathsStr&quot;:&quot;&quot;,&quot;builtinLibraryFilesStr&quot;:&quot;&quot;,&quot;builtinLibraryNames&quot;:[],&quot;builtinLibraryObjectsStr&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;builtinIncludesStr&quot;:&quot;studio:/sdk/platform/emlib/inc/ studio:/sdk/hardware/kit/common/bsp/ studio:/sdk/platform/CMSIS/Include/ studio:/sdk/hardware/kit/EFR32MG22_BRD4182A/config/ studio:/sdk/hardware/kit/common/drivers/ studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/ studio:/sdk/platform/emlib/inc/ studio:/sdk/hardware/kit/common/bsp/ studio:/sdk/platform/CMSIS/Include/ studio:/sdk/hardware/kit/EFR32MG22_BRD4182A/config/ studio:/sdk/hardware/kit/common/drivers/ studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/&quot;,&quot;resolvedOptionsStr&quot;:&quot;[{\&quot;toolId\&quot;:\&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base\&quot;,\&quot;listValues\&quot;:[],\&quot;builtin\&quot;:true,\&quot;optionId\&quot;:\&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.nostdlibs\&quot;,\&quot;value\&quot;:\&quot;false\&quot;,\&quot;listValuesMap\&quot;:{}}]&quot;}]" moduleId="com.silabs.ss.framework.ide.project.core.cpp" projectCommon.referencedModules="[{&quot;removed&quot;:false,&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;emlib/em_cmu.c&quot;,&quot;emlib/em_core.c&quot;,&quot;emlib/em_emu.c&quot;,&quot;emlib/em_gpio.c&quot;,&quot;emlib/em_ldma.c&quot;,&quot;emlib/em_system.c&quot;,&quot;emlib/em_timer.c&quot;],&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; id=\&quot;com.silabs.sdk.exx32.common.emlib\&quot;&gt;\n  &lt;inclusions pattern=\&quot;emlib/em_core.c\&quot;/&gt;\n  &lt;inclusions pattern=\&quot;emlib/em_cmu.c\&quot;/&gt;\n  &lt;inclusions pattern=\&quot;emlib/em_gpio.c\&quot;/&gt;\n  &lt;inclusions pattern=\&quot;emlib/em_system.c\&quot;/&gt;\n  &lt;inclusions pattern=\&quot;emlib/em_emu.c\&quot;/&gt;\n  &lt;inclusions pattern=\&quot;emlib/em_timer.c\&quot;/&gt;\n  &lt;inclusions pattern=\&quot;emlib/em_ldma.c\&quot;/&gt;\n&lt;/project:MModule&gt;&quot;,&quot;builtin&quot;:false},{&quot;removed&quot;:false,&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[],&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; id=\&quot;com.silabs.sdk.exx32.common.bsp\&quot;&gt;\n  &lt;exclusions pattern=\&quot;.*\&quot;/&gt;\n&lt;/project:MModule&gt;&quot;,&quot;builtin&quot;:false},{&quot;removed&quot;:false,&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[],&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; id=\&quot;com.silabs.sdk.exx32.common.CMSIS\&quot;&gt;\n  &lt;exclusions pattern=\&quot;.*\&quot;/&gt;\n&lt;/project:MModule&gt;&quot;,&quot;builtin&quot;:false},{&quot;removed&quot;:false,&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[],&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; id=\&quot;com.silabs.sdk.exx32.board\&quot;&gt;\n  &lt;exclusions pattern=\&quot;.*\&quot;/&gt;\n&lt;/project:MModule&gt;&quot;,&quot;builtin&quot;:false},{&quot;removed&quot;:false,&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[],&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; id=\&quot;com.silabs.sdk.exx32.common.drivers\&quot;&gt;\n  &lt;exclusions pattern=\&quot;.*\&quot;/&gt;\n&lt;/project:MModule&gt;&quot;,&quot;builtin&quot;:false},{&quot;removed&quot;:false,&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;CMSIS/EFR32MG22/startup_gcc_efr32mg22.s&quot;,&quot;CMSIS/EFR32MG22/system_efr32mg22.c&quot;],&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; id=\&quot;com.silabs.sdk.exx32.part\&quot;&gt;\n  &lt;inclusions pattern=\&quot;CMSIS/.*/startup_.*_.*.s\&quot;/&gt;\n  &lt;inclusions pattern=\&quot;CMSIS/.*/system_.*.c\&quot;/&gt;\n&lt;/project:MModule&gt;&quot;,&quot;builtin&quot;:false}]" projectCommon.toolchainId="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:10.2.1.20201103"/>
+            			
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+                				
+                <configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" description="" id="debug" name="GNU ARM v10.2.1 - debug" parent="com.silabs.ide.si32.gcc.cdt.managedbuild.config.gnu.exe">
+                    					
+                    <folderInfo id="debug." name="/" resourcePath="">
+                        						
+                        <toolChain id="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.exe.1615557904" name="Si32 GNU ARM" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.exe">
+                            							
+                            <targetPlatform binaryParser="org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.GNU_ELF;com.silabs.ss.framework.debugger.core.BIN;com.silabs.ss.framework.debugger.core.HEX;com.silabs.ss.framework.debugger.core.S37;com.silabs.ss.framework.debugger.core.EBL;com.silabs.ss.framework.debugger.core.GBL" id="com.silabs.ide.si32.gcc.cdt.managedbuild.target.gnu.platform.base.1648297614" isAbstract="false" name="Debug Platform" osList="win32,linux,macosx" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.target.gnu.platform.base"/>
+                            							
+                            <builder buildPath="${workspace_loc:/BRD4182A_EFR32xG22_timer_pwm_dma}/GNU ARM v10.2.1 - debug" id="com.silabs.ide.si32.gcc.cdt.managedbuild.target.gnu.builder.base.829966337" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Si32 GNU ARM Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.target.gnu.builder.base"/>
+                            							
+                            <tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base.1914119824" name="GNU ARM C Compiler" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base">
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.compiler.option.include.paths.1726861383" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/external_copied_files_inc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/external_copied_files}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/emlib/inc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/hardware/kit/common/bsp&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/CMSIS/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/hardware/kit/EFR32MG22_BRD4182A/config&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/hardware/kit/common/drivers&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/Device/SiliconLabs/EFR32MG22/Include&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.def.symbols.1550278791" name="Defined symbols (-D)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
+                                    									
+                                    <listOptionValue builtIn="false" value="RETARGET_VCOM=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="EFR32MG22C224F512IM40=1"/>
+                                    								
+                                </option>
+                                								
+                                <option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.optimization.level.1650059791" name="Optimization Level" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.optimization.level" useByScannerDiscovery="false" value="gnu.c.optimization.level.none" valueType="enumerated"/>
+                                								
+                                <inputType id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.input.1866791608" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base.461017483" name="GNU ARM C++ Compiler" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base"/>
+                            							
+                            <tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.base.659589313" name="GNU ARM Assembler" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.base">
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.includes.1653968986" name="Include paths (-I)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.includes" useByScannerDiscovery="false" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/external_copied_files_inc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/external_copied_files}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/emlib/inc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/hardware/kit/common/bsp&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/CMSIS/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/hardware/kit/EFR32MG22_BRD4182A/config&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/hardware/kit/common/drivers&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/Device/SiliconLabs/EFR32MG22/Include&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.as.def.symbols.1994681251" name="Defined symbols (-D)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.as.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
+                                    									
+                                    <listOptionValue builtIn="false" value="RETARGET_VCOM=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="EFR32MG22C224F512IM40=1"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="org.eclipse.cdt.core.asmSource.378372014" superClass="org.eclipse.cdt.core.asmSource"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base.428113118" name="GNU ARM C Linker" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base">
+                                								
+                                <option id="gnu.c.link.option.userobjs.1938675533" name="Other objects" superClass="gnu.c.link.option.userobjs" useByScannerDiscovery="false"/>
+                                								
+                                <option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.nostdlibs.1056517725" name="No startup or default libs (-nostdlib)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.nostdlibs" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.c.linker.input.1200021583" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+                                    									
+                                    <additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+                                    									
+                                    <additionalInput kind="additionalinput" paths="$(LIBS)"/>
+                                    								
+                                </inputType>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.base.1117403224" name="GNU ARM C++ Linker" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.base">
+                                								
+                                <option id="gnu.cpp.link.option.userobjs.1604741826" name="Other objects" superClass="gnu.cpp.link.option.userobjs"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.archiver.base.1641671587" name="GNU ARM Archiver" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.archiver.base"/>
+                            						
+                        </toolChain>
+                        					
+                    </folderInfo>
+                    					
+                    <sourceEntries>
+                        						
+                        <entry excluding=".trash" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+                        					
+                    </sourceEntries>
+                    				
+                </configuration>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+            		
+        </cconfiguration>
+        		
+        <cconfiguration id="release">
+            			
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="release" moduleId="org.eclipse.cdt.core.settings" name="GNU ARM v10.2.1 - release">
+                				
+                <macros>
+                    					
+                    <stringMacro name="StudioSdkPath" type="VALUE_PATH_DIR" value="${StudioSdkPathFromID:com.silabs.sdk.stack.super:3.2.3._-874334381}"/>
+                    					
+                    <stringMacro name="StudioToolchainPath" type="VALUE_PATH_DIR" value="${StudioToolchainPathFromID:com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:10.2.1.20201103}"/>
+                    				
+                </macros>
+                				
+                <externalSettings/>
+                				
+                <extensions>
+                    					
+                    <extension id="com.silabs.ss.framework.debugger.core.HEX" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="com.silabs.ss.framework.debugger.core.EBL" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="com.silabs.ss.framework.debugger.core.GBL" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="com.silabs.ss.framework.debugger.core.BIN" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="com.silabs.ss.framework.debugger.core.S37" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    				
+                </extensions>
+                			
+            </storageModule>
+            			
+            <storageModule cppBuildConfig.projectBuiltInState="[{&quot;builtinMacrosMap&quot;:{&quot;EFR32MG22C224F512IM40&quot;:&quot;1&quot;},&quot;builtinLibraryPathsStr&quot;:&quot;&quot;,&quot;builtinLibraryFilesStr&quot;:&quot;&quot;,&quot;builtinLibraryNames&quot;:[],&quot;builtinLibraryObjectsStr&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;builtinIncludesStr&quot;:&quot;studio:/sdk/platform/emlib/inc/ studio:/sdk/hardware/kit/common/bsp/ studio:/sdk/platform/CMSIS/Include/ studio:/sdk/hardware/kit/EFR32MG22_BRD4182A/config/ studio:/sdk/hardware/kit/common/drivers/ studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/ studio:/sdk/platform/emlib/inc/ studio:/sdk/hardware/kit/common/bsp/ studio:/sdk/platform/CMSIS/Include/ studio:/sdk/hardware/kit/EFR32MG22_BRD4182A/config/ studio:/sdk/hardware/kit/common/drivers/ studio:/sdk/platform/Device/SiliconLabs/EFR32MG22/Include/&quot;,&quot;resolvedOptionsStr&quot;:&quot;[{\&quot;toolId\&quot;:\&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base\&quot;,\&quot;listValues\&quot;:[],\&quot;builtin\&quot;:true,\&quot;optionId\&quot;:\&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.nostdlibs\&quot;,\&quot;value\&quot;:\&quot;false\&quot;,\&quot;listValuesMap\&quot;:{}}]&quot;}]" moduleId="com.silabs.ss.framework.ide.project.core.cpp" projectCommon.referencedModules="[{&quot;removed&quot;:false,&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[],&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; id=\&quot;com.silabs.sdk.exx32.board\&quot;&gt;\n  &lt;exclusions pattern=\&quot;.*\&quot;/&gt;\n&lt;/project:MModule&gt;&quot;,&quot;builtin&quot;:false},{&quot;removed&quot;:false,&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[],&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; id=\&quot;com.silabs.sdk.exx32.common.drivers\&quot;&gt;\n  &lt;exclusions pattern=\&quot;.*\&quot;/&gt;\n&lt;/project:MModule&gt;&quot;,&quot;builtin&quot;:false},{&quot;removed&quot;:false,&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[],&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; id=\&quot;com.silabs.sdk.exx32.common.bsp\&quot;&gt;\n  &lt;exclusions pattern=\&quot;.*\&quot;/&gt;\n&lt;/project:MModule&gt;&quot;,&quot;builtin&quot;:false},{&quot;removed&quot;:false,&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[],&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; id=\&quot;com.silabs.sdk.exx32.common.CMSIS\&quot;&gt;\n  &lt;exclusions pattern=\&quot;.*\&quot;/&gt;\n&lt;/project:MModule&gt;&quot;,&quot;builtin&quot;:false},{&quot;removed&quot;:false,&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;CMSIS/EFR32MG22/startup_gcc_efr32mg22.s&quot;,&quot;CMSIS/EFR32MG22/system_efr32mg22.c&quot;],&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; id=\&quot;com.silabs.sdk.exx32.part\&quot;&gt;\n  &lt;inclusions pattern=\&quot;CMSIS/.*/startup_.*_.*.s\&quot;/&gt;\n  &lt;inclusions pattern=\&quot;CMSIS/.*/system_.*.c\&quot;/&gt;\n&lt;/project:MModule&gt;&quot;,&quot;builtin&quot;:false},{&quot;removed&quot;:false,&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;emlib/em_cmu.c&quot;,&quot;emlib/em_core.c&quot;,&quot;emlib/em_emu.c&quot;,&quot;emlib/em_gpio.c&quot;,&quot;emlib/em_ldma.c&quot;,&quot;emlib/em_system.c&quot;,&quot;emlib/em_timer.c&quot;],&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; id=\&quot;com.silabs.sdk.exx32.common.emlib\&quot;&gt;\n  &lt;inclusions pattern=\&quot;emlib/em_core.c\&quot;/&gt;\n  &lt;inclusions pattern=\&quot;emlib/em_cmu.c\&quot;/&gt;\n  &lt;inclusions pattern=\&quot;emlib/em_gpio.c\&quot;/&gt;\n  &lt;inclusions pattern=\&quot;emlib/em_system.c\&quot;/&gt;\n  &lt;inclusions pattern=\&quot;emlib/em_emu.c\&quot;/&gt;\n  &lt;inclusions pattern=\&quot;emlib/em_timer.c\&quot;/&gt;\n  &lt;inclusions pattern=\&quot;emlib/em_ldma.c\&quot;/&gt;\n&lt;/project:MModule&gt;&quot;,&quot;builtin&quot;:false}]" projectCommon.toolchainId="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:10.2.1.20201103"/>
+            			
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+                				
+                <configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" description="" id="release" name="GNU ARM v10.2.1 - release" parent="com.silabs.ide.si32.gcc.cdt.managedbuild.config.gnu.exe">
+                    					
+                    <folderInfo id="release." name="/" resourcePath="">
+                        						
+                        <toolChain id="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.exe.415347911" name="Si32 GNU ARM" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.exe">
+                            							
+                            <targetPlatform binaryParser="org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.GNU_ELF;com.silabs.ss.framework.debugger.core.BIN;com.silabs.ss.framework.debugger.core.HEX;com.silabs.ss.framework.debugger.core.S37;com.silabs.ss.framework.debugger.core.EBL;com.silabs.ss.framework.debugger.core.GBL" id="com.silabs.ide.si32.gcc.cdt.managedbuild.target.gnu.platform.base.145640656" isAbstract="false" name="Debug Platform" osList="win32,linux,macosx" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.target.gnu.platform.base"/>
+                            							
+                            <builder buildPath="${workspace_loc:/BRD4182A_EFR32xG22_timer_pwm_dma}/GNU ARM v10.2.1 - release" id="com.silabs.ide.si32.gcc.cdt.managedbuild.target.gnu.builder.base.779223795" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Si32 GNU ARM Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.target.gnu.builder.base"/>
+                            							
+                            <tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base.938997726" name="GNU ARM C Compiler" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base">
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.compiler.option.include.paths.1517147319" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/external_copied_files_inc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/external_copied_files}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/emlib/inc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/hardware/kit/common/bsp&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/CMSIS/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/hardware/kit/EFR32MG22_BRD4182A/config&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/hardware/kit/common/drivers&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/Device/SiliconLabs/EFR32MG22/Include&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.def.symbols.814850917" name="Defined symbols (-D)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.def.symbols" valueType="definedSymbols">
+                                    									
+                                    <listOptionValue builtIn="false" value="RETARGET_VCOM=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="EFR32MG22C224F512IM40=1"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.input.53389366" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base.1948308535" name="GNU ARM C++ Compiler" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base"/>
+                            							
+                            <tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.base.381448056" name="GNU ARM Assembler" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.base">
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.includes.967049111" name="Include paths (-I)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.includes" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/external_copied_files_inc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/external_copied_files}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/emlib/inc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/hardware/kit/common/bsp&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/CMSIS/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/hardware/kit/EFR32MG22_BRD4182A/config&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/hardware/kit/common/drivers&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/Device/SiliconLabs/EFR32MG22/Include&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.as.def.symbols.430396521" name="Defined symbols (-D)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.as.def.symbols" valueType="definedSymbols">
+                                    									
+                                    <listOptionValue builtIn="false" value="RETARGET_VCOM=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="EFR32MG22C224F512IM40=1"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="org.eclipse.cdt.core.asmSource.1061309688" superClass="org.eclipse.cdt.core.asmSource"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base.2128988655" name="GNU ARM C Linker" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base">
+                                								
+                                <option id="gnu.c.link.option.userobjs.635321399" name="Other objects" superClass="gnu.c.link.option.userobjs"/>
+                                								
+                                <option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.nostdlibs.34525818" name="No startup or default libs (-nostdlib)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.nostdlibs" value="false" valueType="boolean"/>
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.c.linker.input.2104136999" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+                                    									
+                                    <additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+                                    									
+                                    <additionalInput kind="additionalinput" paths="$(LIBS)"/>
+                                    								
+                                </inputType>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.base.1726919052" name="GNU ARM C++ Linker" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.base">
+                                								
+                                <option id="gnu.cpp.link.option.userobjs.726989347" name="Other objects" superClass="gnu.cpp.link.option.userobjs"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.archiver.base.134173402" name="GNU ARM Archiver" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.archiver.base"/>
+                            						
+                        </toolChain>
+                        					
+                    </folderInfo>
+                    					
+                    <sourceEntries>
+                        						
+                        <entry excluding=".trash" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+                        					
+                    </sourceEntries>
+                    				
+                </configuration>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+            		
+        </cconfiguration>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="com.silabs.ss.framework.ide.project.core.cpp" project.generation="179" projectCommon.boardIds="brd4182a:0.0.0 brd4001a:0.0.0.A01" projectCommon.buildArtifactType="EXE" projectCommon.copiedFiles="[{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_lfrco.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_lfrco.h&quot;,&quot;content&quot;:1132922808},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_pdm.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_pdm.h&quot;,&quot;content&quot;:-1121438204},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_modem.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_modem.h&quot;,&quot;content&quot;:-902821069},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_dpll.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_dpll.h&quot;,&quot;content&quot;:-75024849},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_ldma.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_ldma.h&quot;,&quot;content&quot;:1688447291},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_cryptoacc.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_cryptoacc.h&quot;,&quot;content&quot;:-968412685},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_dcdc.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_dcdc.h&quot;,&quot;content&quot;:-1967307466},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_cmu.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_cmu.h&quot;,&quot;content&quot;:204652606},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_mailbox.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_mailbox.h&quot;,&quot;content&quot;:-2053977997},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_gpio_port.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_gpio_port.h&quot;,&quot;content&quot;:484910139},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_rtcc.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_rtcc.h&quot;,&quot;content&quot;:-1480035528},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_gpcrc.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_gpcrc.h&quot;,&quot;content&quot;:-1841299840},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_rfcrc.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_rfcrc.h&quot;,&quot;content&quot;:2038534007},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_rfsense.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_rfsense.h&quot;,&quot;content&quot;:-1283424687},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_frc.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_frc.h&quot;,&quot;content&quot;:-608984950},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_dma_descriptor.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_dma_descriptor.h&quot;,&quot;content&quot;:-1483923967},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_wdog.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_wdog.h&quot;,&quot;content&quot;:-1421242570},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_icache.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_icache.h&quot;,&quot;content&quot;:1393555511},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_devinfo.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_devinfo.h&quot;,&quot;content&quot;:-1443407120},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_lfxo.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_lfxo.h&quot;,&quot;content&quot;:50209792},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_synth.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_synth.h&quot;,&quot;content&quot;:1947636577},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_syscfg.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_syscfg.h&quot;,&quot;content&quot;:-2033310958},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_buram.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_buram.h&quot;,&quot;content&quot;:297790182},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_ulfrco.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_ulfrco.h&quot;,&quot;content&quot;:1866061707},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_aes.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_aes.h&quot;,&quot;content&quot;:-1573123742},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_eusart.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_eusart.h&quot;,&quot;content&quot;:-1011323072},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_burtc.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_burtc.h&quot;,&quot;content&quot;:-1002499877},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_fsrco.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_fsrco.h&quot;,&quot;content&quot;:1409865023},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_usart.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_usart.h&quot;,&quot;content&quot;:-674969166},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_prs_signals.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_prs_signals.h&quot;,&quot;content&quot;:1430847037},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_ldmaxbar.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_ldmaxbar.h&quot;,&quot;content&quot;:553989903},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_smu.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_smu.h&quot;,&quot;content&quot;:-1015057448},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/system_efr32mg22.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/system_efr32mg22.h&quot;,&quot;content&quot;:493332369},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_rac.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_rac.h&quot;,&quot;content&quot;:-837229140},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_msc.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_msc.h&quot;,&quot;content&quot;:-810922946},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_i2c.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_i2c.h&quot;,&quot;content&quot;:-296452732},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_iadc.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_iadc.h&quot;,&quot;content&quot;:-2127480908},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_hfxo.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_hfxo.h&quot;,&quot;content&quot;:683034924},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_amuxcp.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_amuxcp.h&quot;,&quot;content&quot;:1665395675},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_agc.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_agc.h&quot;,&quot;content&quot;:354728469},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files/efr32mg22c224f512im40.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22c224f512im40.h&quot;,&quot;content&quot;:2012824880},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_gpio.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_gpio.h&quot;,&quot;content&quot;:250202678},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_bufc.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_bufc.h&quot;,&quot;content&quot;:945108510},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_hfrco.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_hfrco.h&quot;,&quot;content&quot;:-282959235},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_timer.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_timer.h&quot;,&quot;content&quot;:1991298343},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_protimer.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_protimer.h&quot;,&quot;content&quot;:-1660984537},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_letimer.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_letimer.h&quot;,&quot;content&quot;:1350948425},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_emu.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_emu.h&quot;,&quot;content&quot;:-1966711073},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_prs.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_prs.h&quot;,&quot;content&quot;:17675898},{&quot;generated&quot;:false,&quot;projectPath&quot;:&quot;external_copied_files_inc/efr32mg22_ldmaxbar_defines.h&quot;,&quot;originalPath&quot;:&quot;/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22_ldmaxbar_defines.h&quot;,&quot;content&quot;:-2001597262}]" projectCommon.importModeId="LINK" projectCommon.partId="mcu.arm.efr32.mg22.efr32mg22c224f512im40" projectCommon.sdkId="com.silabs.sdk.stack.super:3.2.3._-874334381" projectCommon.toolchainId="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:10.2.1.20201103"/>
+    	
+    <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+        		
+        <project id="BRD4182A_EFR32xG22_timer_pwm_dma.com.silabs.ss.framework.ide.project.core.cdt.cdtMbsProjectType.1151652656" name="SLS CDT Project" projectType="com.silabs.ss.framework.ide.project.core.cdt.cdtMbsProjectType"/>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+    	
+    <storageModule moduleId="scannerConfiguration">
+        		
+        <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+        		
+        <scannerConfigBuildInfo instanceId="debug;debug.;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base.1914119824;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.input.1866791608">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="release;release.;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base.938997726;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.input.53389366">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="refreshScope"/>
+    	
+    <storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+    
+</cproject>
