@@ -49,6 +49,11 @@
 			<locationURI>STUDIO_SDK_LOC/platform/emlib/src/em_ldma.c</locationURI>
 		</link>
 		<link>
+			<name>emlib/em_prs.c</name>
+			<type>1</type>
+			<locationURI>PARENT-5-PROJECT_LOC/Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.2/platform/emlib/src/em_prs.c</locationURI>
+		</link>
+		<link>
 			<name>emlib/em_system.c</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/platform/emlib/src/em_system.c</locationURI>
@@ -57,11 +62,6 @@
 			<name>emlib/em_timer.c</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/platform/emlib/src/em_timer.c</locationURI>
-		</link>
-		<link>
-			<name>src/main.c</name>
-			<type>1</type>
-			<location>/Users/clfilho/SimplicityStudio/peripheral_examples/series2/timer/timer_pwm_dma/src/main.c</location>
 		</link>
 		<link>
 			<name>src/readme.txt</name>

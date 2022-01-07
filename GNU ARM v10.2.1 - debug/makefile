@@ -31,7 +31,7 @@ all: BRD4182A_EFR32xG22_timer_pwm_dma.axf
 BRD4182A_EFR32xG22_timer_pwm_dma.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GNU ARM C Linker'
-	arm-none-eabi-gcc -g3 -gdwarf-2 -mcpu=cortex-m33 -mthumb -T "BRD4182A_EFR32xG22_timer_pwm_dma.ld" -Xlinker --gc-sections -Xlinker -Map="BRD4182A_EFR32xG22_timer_pwm_dma.map" -mfpu=fpv5-sp-d16 -mfloat-abi=softfp --specs=nano.specs -o BRD4182A_EFR32xG22_timer_pwm_dma.axf "./CMSIS/EFR32MG22/startup_efr32mg22.o" "./CMSIS/EFR32MG22/system_efr32mg22.o" "./emlib/em_cmu.o" "./emlib/em_core.o" "./emlib/em_emu.o" "./emlib/em_gpio.o" "./emlib/em_ldma.o" "./emlib/em_system.o" "./emlib/em_timer.o" "./src/main.o" -Wl,--start-group -lgcc -lc -lnosys -Wl,--end-group
+	arm-none-eabi-gcc -g3 -gdwarf-2 -mcpu=cortex-m33 -mthumb -T "BRD4182A_EFR32xG22_timer_pwm_dma.ld" -Xlinker --gc-sections -Xlinker -Map="BRD4182A_EFR32xG22_timer_pwm_dma.map" -mfpu=fpv5-sp-d16 -mfloat-abi=softfp --specs=nano.specs -o BRD4182A_EFR32xG22_timer_pwm_dma.axf "./CMSIS/EFR32MG22/startup_efr32mg22.o" "./CMSIS/EFR32MG22/system_efr32mg22.o" "./emlib/em_cmu.o" "./emlib/em_core.o" "./emlib/em_emu.o" "./emlib/em_gpio.o" "./emlib/em_ldma.o" "./emlib/em_prs.o" "./emlib/em_system.o" "./emlib/em_timer.o" "./src/main.o" -Wl,--start-group -lgcc -lc -lnosys -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
